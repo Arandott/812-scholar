@@ -1,0 +1,40 @@
+# Ignore lucene-9.12.0 directory and tarball
+lucene-9.12.0/
+lucene-9.12.0.tgz
+
+# Ignore oriPDFs and oriXMLs directories
+oriPDFs/
+oriXMLs/
+
+# Ignore generated index directories
+index/
+index_*/
+
+# Ignore Maven build directory
+target/
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore IDE configuration files
+.vscode/
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore original PDFs rar
+oriPDFs.rar
